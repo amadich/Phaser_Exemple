@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #input-form input {
+            width: 350px;
+            padding: 10px;
+            font-size: 20px;
+            outline: none;
+            background: transparent;
+            border: none;
+            color: aliceblue;
+            font-family: cursive;
+            font-weight: 700;
+            color: gold;
+            text-align: center;
+        }
+        #input-form input::placeholder {color: aliceblue;}
+
+        #input-pwd {
+            position: absolute;
+            margin-top: 55px;
+            margin-left: 50px;
+        }
+        #input-pwd::placeholder{color: aliceblue;}
+        #input-btn {
+            position: absolute;
+            margin-top: 135px;
+            margin-left: 55px;
+            z-index: +1;
+        }
+        #input-btn::placeholder{color: aliceblue;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form action="" method="post">
+
+    <div id="input-form">
+        <input type="text" placeholder="Username" id="user" name="user">
+    </div>
+
+    <div id="input-pwd">
+        <input type="password" placeholder="Password" id="pwd" name="pwd" style="background: transparent;  width: 250px; font-size: 20px; padding: 10px; text-align: center; border: none; outline: none; color: aliceblue;">
+    </div>
+
+    <div id="input-btn">
+        <input type="submit"  style="background: transparent;  width: 250px; font-size: 20px; font-family: cursive; padding: 10px; text-align: center; border: none; outline: none; color: #222; z-index: +1;">
+    </div>
+
+    
+</form>
+
+</body>
+</html>
