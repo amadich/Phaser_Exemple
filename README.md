@@ -1,3 +1,3 @@
 # Phaser_Exemple
 Mini Testing Phaser 3
-![image](https://user-images.githubusercontent.com/74735976/169174716-e8008cd6-2431-4647-95fa-81417b8734b8.png)
+![image](https://user-images.githubusercontent.com/74735976/169176750-fb75ae2d-7511-4dc1-8d24-8f9c8be5b8bd.png)
